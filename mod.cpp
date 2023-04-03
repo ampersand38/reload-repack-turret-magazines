@@ -1,0 +1,12 @@
+name = "Reload Repack Turret Magazines";
+picture = "logo_ampersand_ca.paa";
+actionName = "GitHub";
+action = "https://github.com/ampersand38/reload-repack-turret-magazines";
+description = "Stop mag dumping.";
+logo = "logo_ampersand_ca.paa";
+logoOver = "logo_ampersand_ca.paa";
+tooltip = "Reload Repack Turret Magazines";
+tooltipOwned = "Reload Repack Turret Magazines";
+overview = "Stop mag dumping.";
+author = "Ampersand";
+overviewPicture = "logo_ampersand_ca.paa";

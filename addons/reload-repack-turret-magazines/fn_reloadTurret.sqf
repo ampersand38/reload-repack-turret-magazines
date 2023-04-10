@@ -16,9 +16,12 @@
 
 private _player = missionNamespace getVariable ["bis_fnc_moduleRemoteControl_unit", player];
 private _vehicle = vehicle _player;
-if (_player == _vehicle) exitWith {};
+if (_player == _vehicle || {}) exitWith {};
 
 private _turretPath = _vehicle unitTurret _player;
+weaponState [_vehicle, _turretPath] params ["_weapon"];
+if !(_weapon in (_vehicle weaponsTurret _turretPath)) exitWith {}; // FFV
+
 weaponState [_vehicle, _turretPath] params ["", "", "", "_currentMagazine", "_currentAmmo", "_roundReloadPhase", "_magazineReloadPhase"];
 if (_roundReloadPhase != 0 || {_magazineReloadPhase != 0}) exitWith {
     //systemChat "currently reloading";

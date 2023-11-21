@@ -27,6 +27,10 @@ if (_roundReloadPhase != 0 || {_magazineReloadPhase != 0}) exitWith {
     //systemChat "currently reloading";
 };
 
+private _cfgMagazine = configFile >> "CfgMagazines" >> _currentMagazine;
+
+if (getText (_cfgMagazine >> "pylonWeapon") != "") exitWith {};
+
 private _fullCount = getNumber (configFile >> "CfgMagazines" >> _currentMagazine >> "count");
 if (_currentAmmo == _fullCount) exitWith {
     //systemChat "current mag full";

@@ -1,0 +1,186 @@
+2025-07-04T23:42:30.354489Z TRACE ThreadId(01) version: 1.16.2
+2025-07-04T23:42:30.354585Z TRACE ThreadId(01) platform: windows
+2025-07-04T23:42:30.354608Z TRACE ThreadId(01) args: [
+    "C:\\Program Files (x86)\\Mikero\\DePboTools\\bin\\hemtt.exe",
+    "release",
+]
+2025-07-04T23:42:30.356826Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\amper\\AppData\\Local\\Temp\\hemtt\\Documents_GitHub_reload-repack-turret-magazines"
+2025-07-04T23:42:30.356849Z TRACE ThreadId(01) using project folder: "E:\\Documents\\GitHub\\reload-repack-turret-magazines"
+2025-07-04T23:42:30.356980Z TRACE ThreadId(01) using out folder: "E:\\Documents\\GitHub\\reload-repack-turret-magazines\\.hemttout"
+2025-07-04T23:42:30.357217Z TRACE ThreadId(01) using build folder: "E:\\Documents\\GitHub\\reload-repack-turret-magazines\\.hemttout\\release"
+2025-07-04T23:42:30.363517Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/reload-repack-turret-magazines/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\amper\\AppData\\Local\\Temp\\hemtt\\Documents_GitHub_reload-repack-turret-magazines\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\Documents\\GitHub\\reload-repack-turret-magazines" } } } } } }] } } }
+2025-07-04T23:42:30.364974Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/reload-repack-turret-magazines/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\amper\\AppData\\Local\\Temp\\hemtt\\Documents_GitHub_reload-repack-turret-magazines\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\Documents\\GitHub\\reload-repack-turret-magazines" } } } } } }] } } }
+2025-07-04T23:42:30.365230Z TRACE ThreadId(01) reading version from project.toml
+2025-07-04T23:42:30.372619Z  INFO ThreadId(01) Config loaded for Reload Repack Turret Magazines 1.0.0.0-7a5e893d
+2025-07-04T23:42:30.372769Z TRACE ThreadId(01) Scanning E:\Documents\GitHub\reload-repack-turret-magazines\addons for addons
+2025-07-04T23:42:30.373395Z TRACE ThreadId(01) phase: init (BOM Check) (start)
+2025-07-04T23:42:30.373415Z TRACE ThreadId(01) phase: init (BOM Check) (done)
+2025-07-04T23:42:30.373421Z TRACE ThreadId(01) phase: init (Fine New Line Check) (start)
+2025-07-04T23:42:30.373427Z TRACE ThreadId(01) phase: init (Fine New Line Check) (done)
+2025-07-04T23:42:30.373432Z TRACE ThreadId(01) phase: init (Hooks) (start)
+2025-07-04T23:42:30.373526Z TRACE ThreadId(01) no hooks folder
+2025-07-04T23:42:30.373534Z TRACE ThreadId(01) phase: init (Hooks) (done)
+2025-07-04T23:42:30.373539Z TRACE ThreadId(01) phase: init (Binarize) (start)
+2025-07-04T23:42:30.373563Z TRACE ThreadId(01) Using Binarize path from registry
+2025-07-04T23:42:30.374176Z TRACE ThreadId(01) junction link "C:\\Users\\amper\\AppData\\Local\\Temp\\hemtt\\Documents_GitHub_reload-repack-turret-magazines\\rrtm" => "E:\\Documents\\GitHub\\reload-repack-turret-magazines\\addons\\reload-repack-turret-magazines"
+2025-07-04T23:42:30.389134Z TRACE ThreadId(01) phase: init (Binarize) (done)
+2025-07-04T23:42:30.389145Z TRACE ThreadId(01) phase: init (Files) (start)
+2025-07-04T23:42:30.389149Z TRACE ThreadId(01) phase: init (Files) (done)
+2025-07-04T23:42:30.389155Z TRACE ThreadId(01) phase: init (Sign) (start)
+2025-07-04T23:42:30.389158Z TRACE ThreadId(01) phase: init (Sign) (done)
+2025-07-04T23:42:30.389161Z TRACE ThreadId(01) phase: init (Rapifier) (start)
+2025-07-04T23:42:30.389164Z TRACE ThreadId(01) phase: init (Rapifier) (done)
+2025-07-04T23:42:30.389168Z TRACE ThreadId(01) phase: init (SQF) (start)
+2025-07-04T23:42:30.809484Z TRACE ThreadId(01) phase: init (SQF) (done)
+2025-07-04T23:42:30.809497Z TRACE ThreadId(01) phase: init (Stringtables) (start)
+2025-07-04T23:42:30.809532Z TRACE ThreadId(01) phase: init (Stringtables) (done)
+2025-07-04T23:42:30.809542Z TRACE ThreadId(01) phase: check (BOM Check) (start)
+2025-07-04T23:42:30.810224Z TRACE ThreadId(01) phase: check (BOM Check) (done)
+2025-07-04T23:42:30.810231Z TRACE ThreadId(01) phase: check (Fine New Line Check) (start)
+2025-07-04T23:42:30.810853Z TRACE ThreadId(01) phase: check (Fine New Line Check) (done)
+2025-07-04T23:42:30.810860Z TRACE ThreadId(01) phase: check (Hooks) (start)
+2025-07-04T23:42:30.810864Z TRACE ThreadId(01) phase: check (Hooks) (done)
+2025-07-04T23:42:30.810867Z TRACE ThreadId(01) phase: check (Binarize) (start)
+2025-07-04T23:42:30.812827Z  INFO ThreadId(01) Validated 0 files for binarization
+2025-07-04T23:42:30.812836Z TRACE ThreadId(01) phase: check (Binarize) (done)
+2025-07-04T23:42:30.812840Z TRACE ThreadId(01) phase: check (Files) (start)
+2025-07-04T23:42:30.812844Z TRACE ThreadId(01) phase: check (Files) (done)
+2025-07-04T23:42:30.812847Z TRACE ThreadId(01) phase: check (Sign) (start)
+2025-07-04T23:42:30.814498Z TRACE ThreadId(01) phase: check (Sign) (done)
+2025-07-04T23:42:30.814505Z TRACE ThreadId(01) phase: check (Rapifier) (start)
+2025-07-04T23:42:30.814582Z TRACE ThreadId(01) phase: check (Rapifier) (done)
+2025-07-04T23:42:30.814586Z TRACE ThreadId(01) phase: check (SQF) (start)
+2025-07-04T23:42:30.814666Z TRACE ThreadId(01) phase: check (SQF) (done)
+2025-07-04T23:42:30.814670Z TRACE ThreadId(01) phase: check (Stringtables) (start)
+2025-07-04T23:42:30.814707Z TRACE ThreadId(01) phase: check (Stringtables) (done)
+2025-07-04T23:42:30.814711Z TRACE ThreadId(01) phase: pre_build (BOM Check) (start)
+2025-07-04T23:42:30.814715Z TRACE ThreadId(01) phase: pre_build (BOM Check) (done)
+2025-07-04T23:42:30.814718Z TRACE ThreadId(01) phase: pre_build (Fine New Line Check) (start)
+2025-07-04T23:42:30.814721Z TRACE ThreadId(01) phase: pre_build (Fine New Line Check) (done)
+2025-07-04T23:42:30.814724Z TRACE ThreadId(01) phase: pre_build (Hooks) (start)
+2025-07-04T23:42:30.814730Z TRACE ThreadId(01) phase: pre_build (Hooks) (done)
+2025-07-04T23:42:30.814734Z TRACE ThreadId(01) phase: pre_build (Binarize) (start)
+2025-07-04T23:42:30.815102Z  INFO ThreadId(01) Binarized 0 files
+2025-07-04T23:42:30.815113Z TRACE ThreadId(01) phase: pre_build (Binarize) (done)
+2025-07-04T23:42:30.815118Z TRACE ThreadId(01) phase: pre_build (Files) (start)
+2025-07-04T23:42:30.815122Z TRACE ThreadId(01) phase: pre_build (Files) (done)
+2025-07-04T23:42:30.815125Z TRACE ThreadId(01) phase: pre_build (Sign) (start)
+2025-07-04T23:42:30.815129Z TRACE ThreadId(01) phase: pre_build (Sign) (done)
+2025-07-04T23:42:30.815132Z TRACE ThreadId(01) phase: pre_build (Rapifier) (start)
+2025-07-04T23:42:30.822514Z  INFO ThreadId(01) Rapified 1 addon configs
+2025-07-04T23:42:30.822560Z TRACE ThreadId(01) phase: pre_build (Rapifier) (done)
+2025-07-04T23:42:30.822571Z TRACE ThreadId(01) phase: pre_build (SQF) (start)
+2025-07-04T23:42:30.826633Z TRACE ThreadId(04) sqf compiling /addons/reload-repack-turret-magazines/fn_monitorMagazines.sqf
+2025-07-04T23:42:30.826637Z TRACE ThreadId(06) sqf compiling /addons/reload-repack-turret-magazines/fn_postInit.sqf
+2025-07-04T23:42:30.826630Z TRACE ThreadId(03) sqf compiling /addons/reload-repack-turret-magazines/fn_reloadTurret.sqf
+2025-07-04T23:42:30.839723Z  INFO ThreadId(01) Compiled 3 sqf files
+2025-07-04T23:42:30.839794Z TRACE ThreadId(01) phase: pre_build (SQF) (done)
+2025-07-04T23:42:30.839806Z TRACE ThreadId(01) phase: pre_build (Stringtables) (start)
+2025-07-04T23:42:30.842792Z  INFO ThreadId(01) Checked 0 stringtables
+2025-07-04T23:42:30.842813Z TRACE ThreadId(01) phase: pre_build (Stringtables) (done)
+2025-07-04T23:42:30.842821Z TRACE ThreadId(01) phase: build (start)
+2025-07-04T23:42:30.845852Z DEBUG ThreadId(01) creating "E:\\Documents\\GitHub\\reload-repack-turret-magazines\\.hemttout\\release\\addons"
+2025-07-04T23:42:30.846002Z DEBUG ThreadId(01) building "addons/reload-repack-turret-magazines" => "E:\\Documents\\GitHub\\reload-repack-turret-magazines\\.hemttout\\release\\addons\\rrtm_reload-repack-turret-magazines.pbo"
+2025-07-04T23:42:30.847398Z TRACE ThreadId(01) adding file "fn_monitorMagazines.sqf"
+2025-07-04T23:42:30.848056Z TRACE ThreadId(01) adding file "fn_postInit.sqf"
+2025-07-04T23:42:30.848622Z TRACE ThreadId(01) adding file "fn_reloadTurret.sqf"
+2025-07-04T23:42:30.849469Z TRACE ThreadId(01) adding file "config.bin"
+2025-07-04T23:42:30.850375Z  INFO ThreadId(01) Built 1 PBOs
+2025-07-04T23:42:30.850389Z TRACE ThreadId(01) phase: build (done)
+2025-07-04T23:42:30.850394Z TRACE ThreadId(01) phase: post_build (BOM Check) (start)
+2025-07-04T23:42:30.850398Z TRACE ThreadId(01) phase: post_build (BOM Check) (done)
+2025-07-04T23:42:30.850401Z TRACE ThreadId(01) phase: post_build (Fine New Line Check) (start)
+2025-07-04T23:42:30.850405Z TRACE ThreadId(01) phase: post_build (Fine New Line Check) (done)
+2025-07-04T23:42:30.850408Z TRACE ThreadId(01) phase: post_build (Hooks) (start)
+2025-07-04T23:42:30.850411Z TRACE ThreadId(01) phase: post_build (Hooks) (done)
+2025-07-04T23:42:30.850415Z TRACE ThreadId(01) phase: post_build (Binarize) (start)
+2025-07-04T23:42:30.850418Z TRACE ThreadId(01) phase: post_build (Binarize) (done)
+2025-07-04T23:42:30.850421Z TRACE ThreadId(01) phase: post_build (Files) (start)
+2025-07-04T23:42:30.929103Z DEBUG ThreadId(01) copying "/logo_ampersand_ca.paa" => "E:\\Documents\\GitHub\\reload-repack-turret-magazines\\.hemttout\\release\\logo_ampersand_ca.paa"
+2025-07-04T23:42:30.930231Z DEBUG ThreadId(01) copying "/mod.cpp" => "E:\\Documents\\GitHub\\reload-repack-turret-magazines\\.hemttout\\release\\mod.cpp"
+2025-07-04T23:42:30.931303Z DEBUG ThreadId(01) copying "/LICENSE" => "E:\\Documents\\GitHub\\reload-repack-turret-magazines\\.hemttout\\release\\LICENSE"
+2025-07-04T23:42:30.932649Z DEBUG ThreadId(01) copying "/README.md" => "E:\\Documents\\GitHub\\reload-repack-turret-magazines\\.hemttout\\release\\README.md"
+2025-07-04T23:42:30.933796Z DEBUG ThreadId(01) copying "/AUTHORS.txt" => "E:\\Documents\\GitHub\\reload-repack-turret-magazines\\.hemttout\\release\\AUTHORS.txt"
+2025-07-04T23:42:30.935417Z  INFO ThreadId(01) Copied 5 files
+2025-07-04T23:42:30.935438Z TRACE ThreadId(01) phase: post_build (Files) (done)
+2025-07-04T23:42:30.935443Z TRACE ThreadId(01) phase: post_build (Sign) (start)
+2025-07-04T23:42:30.935446Z TRACE ThreadId(01) phase: post_build (Sign) (done)
+2025-07-04T23:42:30.935449Z TRACE ThreadId(01) phase: post_build (Rapifier) (start)
+2025-07-04T23:42:30.935453Z TRACE ThreadId(01) phase: post_build (Rapifier) (done)
+2025-07-04T23:42:30.935459Z TRACE ThreadId(01) phase: post_build (SQF) (start)
+2025-07-04T23:42:30.935465Z TRACE ThreadId(01) phase: post_build (SQF) (done)
+2025-07-04T23:42:30.935473Z TRACE ThreadId(01) phase: post_build (Stringtables) (start)
+2025-07-04T23:42:30.935481Z TRACE ThreadId(01) phase: post_build (Stringtables) (done)
+2025-07-04T23:42:30.935490Z TRACE ThreadId(01) phase: pre_release (BOM Check) (start)
+2025-07-04T23:42:30.935493Z TRACE ThreadId(01) phase: pre_release (BOM Check) (done)
+2025-07-04T23:42:30.935496Z TRACE ThreadId(01) phase: pre_release (Fine New Line Check) (start)
+2025-07-04T23:42:30.935500Z TRACE ThreadId(01) phase: pre_release (Fine New Line Check) (done)
+2025-07-04T23:42:30.935503Z TRACE ThreadId(01) phase: pre_release (Hooks) (start)
+2025-07-04T23:42:30.935506Z TRACE ThreadId(01) phase: pre_release (Hooks) (done)
+2025-07-04T23:42:30.935509Z TRACE ThreadId(01) phase: pre_release (Binarize) (start)
+2025-07-04T23:42:30.935512Z TRACE ThreadId(01) phase: pre_release (Binarize) (done)
+2025-07-04T23:42:30.935516Z TRACE ThreadId(01) phase: pre_release (Files) (start)
+2025-07-04T23:42:30.935519Z TRACE ThreadId(01) phase: pre_release (Files) (done)
+2025-07-04T23:42:30.935522Z TRACE ThreadId(01) phase: pre_release (Sign) (start)
+2025-07-04T23:42:30.955363Z DEBUG ThreadId(01) signing "E:\\Documents\\GitHub\\reload-repack-turret-magazines\\.hemttout\\release\\addons\\rrtm_reload-repack-turret-magazines.pbo.rrtm_1.0.0.0-7a5e893d.bisign"
+2025-07-04T23:42:30.960504Z TRACE ThreadId(01) phase: pre_release (Sign) (done)
+2025-07-04T23:42:30.960520Z TRACE ThreadId(01) phase: pre_release (Rapifier) (start)
+2025-07-04T23:42:30.960527Z TRACE ThreadId(01) phase: pre_release (Rapifier) (done)
+2025-07-04T23:42:30.960533Z TRACE ThreadId(01) phase: pre_release (SQF) (start)
+2025-07-04T23:42:30.960538Z TRACE ThreadId(01) phase: pre_release (SQF) (done)
+2025-07-04T23:42:30.960542Z TRACE ThreadId(01) phase: pre_release (Stringtables) (start)
+2025-07-04T23:42:30.960547Z TRACE ThreadId(01) phase: pre_release (Stringtables) (done)
+2025-07-04T23:42:30.960554Z TRACE ThreadId(01) phase: archive (start)
+2025-07-04T23:42:30.960559Z TRACE ThreadId(01) phase: archive (BOM Check) (start)
+2025-07-04T23:42:30.960564Z TRACE ThreadId(01) phase: archive (BOM Check) (done)
+2025-07-04T23:42:30.960569Z TRACE ThreadId(01) phase: archive (Fine New Line Check) (start)
+2025-07-04T23:42:30.960574Z TRACE ThreadId(01) phase: archive (Fine New Line Check) (done)
+2025-07-04T23:42:30.960579Z TRACE ThreadId(01) phase: archive (Hooks) (start)
+2025-07-04T23:42:30.960585Z TRACE ThreadId(01) phase: archive (Hooks) (done)
+2025-07-04T23:42:30.960589Z TRACE ThreadId(01) phase: archive (Binarize) (start)
+2025-07-04T23:42:30.960594Z TRACE ThreadId(01) phase: archive (Binarize) (done)
+2025-07-04T23:42:30.960599Z TRACE ThreadId(01) phase: archive (Files) (start)
+2025-07-04T23:42:30.960604Z TRACE ThreadId(01) phase: archive (Files) (done)
+2025-07-04T23:42:30.960609Z TRACE ThreadId(01) phase: archive (Sign) (start)
+2025-07-04T23:42:30.960614Z TRACE ThreadId(01) phase: archive (Sign) (done)
+2025-07-04T23:42:30.960619Z TRACE ThreadId(01) phase: archive (Rapifier) (start)
+2025-07-04T23:42:30.960624Z TRACE ThreadId(01) phase: archive (Rapifier) (done)
+2025-07-04T23:42:30.960629Z TRACE ThreadId(01) phase: archive (SQF) (start)
+2025-07-04T23:42:30.960634Z TRACE ThreadId(01) phase: archive (SQF) (done)
+2025-07-04T23:42:30.960639Z TRACE ThreadId(01) phase: archive (Stringtables) (start)
+2025-07-04T23:42:30.960644Z TRACE ThreadId(01) phase: archive (Stringtables) (done)
+2025-07-04T23:42:30.960656Z TRACE ThreadId(01) using releases folder: "E:\\Documents\\GitHub\\reload-repack-turret-magazines\\releases"
+2025-07-04T23:42:30.960799Z DEBUG ThreadId(01) creating release at "E:\\Documents\\GitHub\\reload-repack-turret-magazines\\releases\\rrtm-latest.zip"
+2025-07-04T23:42:30.961302Z TRACE ThreadId(01) zip: creating directory "@rrtm/addons"
+2025-07-04T23:42:30.961414Z TRACE ThreadId(01) zip: adding file "@rrtm/addons/rrtm_reload-repack-turret-magazines.pbo"
+2025-07-04T23:42:30.961514Z TRACE ThreadId(01) zip: adding file "@rrtm/addons/rrtm_reload-repack-turret-magazines.pbo.rrtm_1.0.0.0-7a5e893d.bisign"
+2025-07-04T23:42:30.961626Z TRACE ThreadId(01) zip: adding file "@rrtm/AUTHORS.txt"
+2025-07-04T23:42:30.961796Z TRACE ThreadId(01) zip: creating directory "@rrtm/keys"
+2025-07-04T23:42:30.961905Z TRACE ThreadId(01) zip: adding file "@rrtm/keys/rrtm_1.0.0.0-7a5e893d.bikey"
+2025-07-04T23:42:30.962019Z TRACE ThreadId(01) zip: adding file "@rrtm/LICENSE"
+2025-07-04T23:42:30.962112Z TRACE ThreadId(01) zip: adding file "@rrtm/logo_ampersand_ca.paa"
+2025-07-04T23:42:30.962201Z TRACE ThreadId(01) zip: adding file "@rrtm/mod.cpp"
+2025-07-04T23:42:30.962294Z TRACE ThreadId(01) zip: adding file "@rrtm/README.md"
+2025-07-04T23:42:30.971660Z  INFO ThreadId(01) Created release: E:\Documents\GitHub\reload-repack-turret-magazines\releases\rrtm-latest.zip
+2025-07-04T23:42:30.971870Z  INFO ThreadId(01) Created release: E:\Documents\GitHub\reload-repack-turret-magazines\releases\rrtm-1.0.0.0-7a5e893d.zip
+2025-07-04T23:42:30.972451Z TRACE ThreadId(01) phase: archive (done)
+2025-07-04T23:42:30.972466Z TRACE ThreadId(01) phase: post_release (BOM Check) (start)
+2025-07-04T23:42:30.972475Z TRACE ThreadId(01) phase: post_release (BOM Check) (done)
+2025-07-04T23:42:30.972480Z TRACE ThreadId(01) phase: post_release (Fine New Line Check) (start)
+2025-07-04T23:42:30.972485Z TRACE ThreadId(01) phase: post_release (Fine New Line Check) (done)
+2025-07-04T23:42:30.972490Z TRACE ThreadId(01) phase: post_release (Hooks) (start)
+2025-07-04T23:42:30.972531Z TRACE ThreadId(01) phase: post_release (Hooks) (done)
+2025-07-04T23:42:30.972539Z TRACE ThreadId(01) phase: post_release (Binarize) (start)
+2025-07-04T23:42:30.972545Z TRACE ThreadId(01) phase: post_release (Binarize) (done)
+2025-07-04T23:42:30.972550Z TRACE ThreadId(01) phase: post_release (Files) (start)
+2025-07-04T23:42:30.972555Z TRACE ThreadId(01) phase: post_release (Files) (done)
+2025-07-04T23:42:30.972560Z TRACE ThreadId(01) phase: post_release (Sign) (start)
+2025-07-04T23:42:30.972565Z TRACE ThreadId(01) phase: post_release (Sign) (done)
+2025-07-04T23:42:30.972569Z TRACE ThreadId(01) phase: post_release (Rapifier) (start)
+2025-07-04T23:42:30.972574Z TRACE ThreadId(01) phase: post_release (Rapifier) (done)
+2025-07-04T23:42:30.972579Z TRACE ThreadId(01) phase: post_release (SQF) (start)
+2025-07-04T23:42:30.972584Z TRACE ThreadId(01) phase: post_release (SQF) (done)
+2025-07-04T23:42:30.972589Z TRACE ThreadId(01) phase: post_release (Stringtables) (start)
+2025-07-04T23:42:30.972594Z TRACE ThreadId(01) phase: post_release (Stringtables) (done)
+2025-07-04T23:42:30.978890Z TRACE ThreadId(01) writing ci annotations to .hemttout/ci_annotations.txt
+2025-07-04T23:42:30.979037Z TRACE ThreadId(01) wrote 0 ci annotations to .hemttout/ci_annotations.txt

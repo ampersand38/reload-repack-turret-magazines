@@ -3,8 +3,8 @@ class CfgPatches {
         name = "Reload Repack Turret Magazines";
         units[] = {};
         weapons[] = {};
-        requiredVersion = 1.12;
-        requiredAddons[] = {"A3_Data_F_AoW_Loadorder"};
+        requiredVersion = 2.20;
+        requiredAddons[] = {"A3_Data_F_Decade_Loadorder"};
         author = "Ampersand";
         authors[] = {"Ampersand"};
         authorUrl = "https://github.com/ampersand38/reload-repack-turret-magazines";

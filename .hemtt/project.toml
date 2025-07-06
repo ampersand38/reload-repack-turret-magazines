@@ -1,0 +1,28 @@
+name = "Reload Repack Turret Magazines"
+prefix = "rrtm"
+mainprefix = "z"
+
+[properties]
+author = "Ampersand"
+url = "https://github.com/ampersand38/reload-repack-turret-magazines"
+
+[files]
+include = [
+    "mod.cpp",
+    "README.md",
+    "AUTHORS.txt",
+    "LICENSE",
+    "logo_ampersand_ca.paa",
+    "meta.cpp"
+]
+exclude = [
+    ".vscode",
+    "*.sqfc",
+    "*.pdn",
+]
+
+[version]
+major = 1
+minor = 0
+patch = 0
+build = 0

@@ -15,8 +15,12 @@
  */
 
 private _player = missionNamespace getVariable ["bis_fnc_moduleRemoteControl_unit", player];
-private _vehicle = vehicle _player;
-if (_player == _vehicle || {}) exitWith {};
+if (isRemoteControlling _player) then {
+    _player = remoteControlled _player;
+};
+
+private _vehicle = objectParent _player;
+if (isNull _vehicle || {_vehicle != cameraOn}) exitWith {};
 
 private _turretPath = _vehicle unitTurret _player;
 weaponState [_vehicle, _turretPath] params ["_weapon"];
